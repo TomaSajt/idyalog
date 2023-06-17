@@ -9,11 +9,10 @@ import html
 
 from collections import deque
 
-
 from ipykernel.kernelbase import Kernel
-from dyalog_kernel import __version__
 from notebook.services.config import ConfigManager
 
+__version__  =  '0.911'
 
 handShake1 = b'\x00\x00\x00\x1cRIDESupportedProtocols=2'
 handShake2 = b'\x00\x00\x00\x17RIDEUsingProtocol=2'
